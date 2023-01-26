@@ -1,0 +1,35 @@
+.topbar {
+    background-color: rgba(0,0,0,0.02);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.pagetitle {
+    margin: 0.2em 0 0.2em 0.2em;
+}
+
+.fab {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    color: #171515;
+}
+
+.links {
+    margin-right: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+}
