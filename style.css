@@ -7,6 +7,11 @@
     align-items: center;
     flex-wrap: wrap;
     border-radius: 8px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    backdrop-filter: blur(10px);
 }
 
 .pagetitle {
@@ -43,6 +48,7 @@ img {
 .maincontainer {
     display: flex;
     justify-content: center;
+    margin-top: 4em;
 }
 
 .contentcontainer {
