@@ -33,3 +33,67 @@
     flex-wrap: wrap;
     gap: 0.3em;
 }
+
+img {
+    margin-left: 2em;
+    max-width: 15%;
+    border-radius: 50%;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contentcontainer {
+    margin-top: 1em;
+    width: 95%;
+    background-color: rgba(0,0,0,0.02);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.header1 {
+    margin-left: 1em;
+}
+
+.introdiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: start;
+}
+
+.introdivcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.infocontainer {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#introduction, #age  {
+    display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        margin-left: 30%;
+        max-width: 40%;
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    img {
+        margin-left: 15%;
+        max-width: 60%;
+        border-radius: 50%;
+        margin-bottom: 1em;
+    }
+  }
