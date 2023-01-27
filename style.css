@@ -99,17 +99,23 @@ img {
         margin-left: 1em;
         margin-right: 1em;
     }
+    .header1 {
+        margin-left: 0em;
+    }
   }
 
   @media only screen and (max-width: 400px) {
     img {
         margin-left: 15%;
-        max-width: 60%;
+        max-width: 70%;
         border-radius: 50%;
         margin-bottom: 1em;
     }
     .infocontainer {
         margin-left: 0.5em;
         margin-right: 0.5em;
+    }
+    .header1 {
+        margin-left: 0em;
     }
   }
