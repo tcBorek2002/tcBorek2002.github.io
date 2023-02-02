@@ -39,7 +39,7 @@
     gap: 0.3em;
 }
 
-img {
+.profilepicture {
     margin-left: 2em;
     max-width: 15%;
     border-radius: 50%;
@@ -89,7 +89,7 @@ img {
 }
 
 @media only screen and (max-width: 712px) {
-    img {
+    .profilepicture {
         margin-left: 30%;
         max-width: 40%;
         border-radius: 50%;
@@ -108,7 +108,7 @@ img {
     .introdiv {
         margin-top: 0em;
     }
-    img {
+    .profilepicture {
         margin-left: 10%;
         max-width: 80%;
         border-radius: 50%;
